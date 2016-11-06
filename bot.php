@@ -288,7 +288,7 @@ class TransclusionBot {
                              // quickly
             $text = $page['revisions'][0]['*'];
             $text = preg_replace('/\{\{\s*' . preg_quote($this->template, '/') .
-                '\s*\}\}/', '{{subst:' . $this->template . '}}', $text);
+                '\s*(?=\}\}|\|)/', '{{subst:' . $this->template, $text);
             $data = [
                 'title'          => $page['title'],
                 'text'           => $text,
