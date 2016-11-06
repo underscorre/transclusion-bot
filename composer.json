@@ -1,0 +1,25 @@
+{
+    "name": "underscorre/transclusion-bot",
+    "description": "MediaWiki bot that replaces transclusions of templates with substitutions",
+    "homepage": "https://github.com/underscorre/transclusion-bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "underscorre",
+            "email": "underscorre.throwaway@gmail.com",
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/underscorre/transclusion-bot/issues",
+        "source": "https://github.com/underscorre/transclusion-bot"
+    },
+    "require": {
+        "hamstar/wikimate": "^0.10.0",
+        "league/climate": "^3.2"
+    },
+    "autoload": {
+        "classmap": [
+            "bot.php"
+        ]
+    }
+}
