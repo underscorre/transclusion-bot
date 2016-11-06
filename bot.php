@@ -298,7 +298,7 @@ class TransclusionBot {
                 'starttimestamp' => $page['starttimestamp'],
                 'minor'          => true,
                 'summary'        => 'Replacing some transclusions with ' .
-                                    'substitutions';
+                                    'substitutions'
             ];
             $result = $this->wikimate->edit($data);
             if (!array_key_exists('edit', $result) ||
