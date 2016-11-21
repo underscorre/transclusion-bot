@@ -2,7 +2,7 @@
 
 TransclusionBot is a simple MediaWiki bot that replaces transclusions of
 templates with substitutions. Please note, the bot is only tested on Ubuntu
-14.04, and may not work on other distros/Operating Systems.
+14.04 & PHP 7.0.13, and may not work on other distros/Operating Systems.
 
 ## Install ##
 
